@@ -1,0 +1,18 @@
+/* styles.css */
+
+/* Стиль для заголовков */
+h1, h2, h3, h4, h5, h6 {
+    color: #333; /* Цвет заголовков */
+}
+
+/* Стиль для фона всех страниц */
+body {
+    background-color: #f0f0f0; /* Цвет фона */
+}
+
+/* Стиль для тега <p> */
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+}
