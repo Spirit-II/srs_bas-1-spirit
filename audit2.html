@@ -10,11 +10,12 @@ function transferData() {
             document.getElementById('input2').value = input1;
         }
 
-		function checkAge() {
+function checkAge() {
      var age = parseInt(document.getElementById('age').value);
      if (age >= 18) {
-        window.location.href = 'main.html'; // Переход на другую страницу
-} else {
+        window.location.href = 'index.html'; // Переход на другую страницу
+} 
+     else {
     alert('Вам нет 18-ти лет');
 }}
 	</SCRIPT>
@@ -38,6 +39,9 @@ function transferData() {
 <A HREF= "png4.webp">Схема работы</A>
 <A HREF= "DAS.pdf">Дополнительная информация</A>
 </CENTER>
+<h1>Проверка возраста</h1>
+<input type="number" id="age" placeholder="Введите ваш возраст">
+<button onclick="checkAge()">Проверить</button>
 <p>
 </div>
 </body>
